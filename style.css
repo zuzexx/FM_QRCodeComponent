@@ -38,20 +38,3 @@ p{
     margin-left: auto;
     margin-right: auto;
 }
-@media (min-width:580px){
-    img{
-        width: 400px;
-    }
-    main{
-        width: 450px;
-    }
-    h1{
-        width: 350px;
-    }
-    p{
-        width: 350px;
-        font-size: 20px;
-        margin-bottom: 40px;
-    }
-
-}
