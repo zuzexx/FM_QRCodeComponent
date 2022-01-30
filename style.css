@@ -14,7 +14,7 @@ img{
     margin-top: 25px;
 }
 main{
-    margin-top: 200px;
+    margin-top: 50px;
     background-color: hsl(0, 0%, 100%) ;
     width:350px;
     border-radius: 10px;
@@ -43,7 +43,6 @@ p{
         width: 400px;
     }
     main{
-        margin-top: 150px;
         width: 450px;
     }
     h1{
