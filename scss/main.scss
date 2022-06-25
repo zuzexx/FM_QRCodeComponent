@@ -23,35 +23,42 @@
     height:100%;
 }
 
-@mixin mainBackground{
-    background-color:$white;
-    width:85vw;
-    border-radius: 20px;
-}
-@mixin section{
-    background-color: hsl(225, 100%, 96%);
-    border-radius: 10px;
+@mixin mainBackground(){
     width:85%;
-}
-
-@mixin desktop(){
-    @media(min-width:$desktop){
-        @content;
-
-    }
+    background-color: $white;
+    border-radius: 20px;
+    width: 400px;
 }
 
 body{
     @include body();
-    @include flexCenter();
-    background-color: $grayish;
+    @include flexCenter(column);
+    background-color: $gray;
+    font-family:$font-family;
 }
 
 main{
     @include mainBackground();
-
 }
 
 img{
     border-radius: 20px;
+    height: 350px;
+    margin:25px;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin:30px;
+    color:$blue;
+}
+
+p{
+    color: $grayish;
+    font-size: $font-size;
+    text-align: center;
+    width:300px;
+    margin:40px;
+    line-height: 1.5rem;
 }
