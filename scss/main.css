@@ -17,27 +17,27 @@ body {
 main {
   background-color: hsl(0deg, 0%, 100%);
   border-radius: 20px;
-  width: 350px;
+  width: 300px;
 }
 
 img {
   border-radius: 20px;
-  height: 300px;
-  margin: 25px;
+  height: 260px;
+  margin: 20px;
 }
 
 h1 {
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   margin: 20px;
   color: hsl(218deg, 44%, 22%);
 }
 
 p {
   color: hsl(220deg, 15%, 55%);
-  font-size: 17px;
+  font-size: 15px;
   text-align: center;
-  width: 300px;
-  margin: 30px;
+  width: 250px;
+  margin: 25px;
   line-height: 1.5rem;
 }/*# sourceMappingURL=main.css.map */
