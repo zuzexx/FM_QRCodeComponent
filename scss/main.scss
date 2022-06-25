@@ -1,1 +1,57 @@
 @import "./variables";
+
+@function weight($weight-name){
+    @return map-get($font-weights, $weight-name);
+}
+
+@mixin body(){
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+@mixin flexCenter($direction){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:$direction;
+    margin: auto;
+
+    width:100%;
+    height:100%;
+}
+
+@mixin mainBackground{
+    background-color:$white;
+    width:85vw;
+    border-radius: 20px;
+}
+@mixin section{
+    background-color: hsl(225, 100%, 96%);
+    border-radius: 10px;
+    width:85%;
+}
+
+@mixin desktop(){
+    @media(min-width:$desktop){
+        @content;
+
+    }
+}
+
+body{
+    @include body();
+    @include flexCenter();
+    background-color: $grayish;
+}
+
+main{
+    @include mainBackground();
+
+}
+
+img{
+    border-radius: 20px;
+}
