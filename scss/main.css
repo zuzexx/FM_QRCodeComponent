@@ -17,12 +17,13 @@ body {
 main {
   background-color: hsl(0deg, 0%, 100%);
   border-radius: 20px;
-  width: 300px;
+  width: 320px;
 }
 
 img {
   border-radius: 20px;
-  height: 260px;
+  height: 300px;
+  width: 280px;
   margin: 20px;
 }
 
