@@ -15,22 +15,21 @@ body {
 }
 
 main {
-  width: 85%;
   background-color: hsl(0deg, 0%, 100%);
   border-radius: 20px;
-  width: 400px;
+  width: 350px;
 }
 
 img {
   border-radius: 20px;
-  height: 350px;
+  height: 300px;
   margin: 25px;
 }
 
 h1 {
   text-align: center;
-  font-size: 30px;
-  margin: 30px;
+  font-size: 25px;
+  margin: 20px;
   color: hsl(218deg, 44%, 22%);
 }
 
@@ -39,6 +38,6 @@ p {
   font-size: 17px;
   text-align: center;
   width: 300px;
-  margin: 40px;
+  margin: 30px;
   line-height: 1.5rem;
 }/*# sourceMappingURL=main.css.map */
