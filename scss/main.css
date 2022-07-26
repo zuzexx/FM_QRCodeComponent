@@ -29,7 +29,7 @@ main {
   justify-content: center;
   background-color: white;
   border-radius: 15px;
-  box-shadow: 0px 18px 28px 0px rgba(123, 135, 157, 0.3);
+  box-shadow: 0px 18px 28px 0px rgba(123, 135, 157, 0.2);
 }
 
 img {
@@ -58,6 +58,6 @@ img:hover {
   color: hsl(220deg, 15%, 55%);
   font-size: 1rem;
   width: 275px;
-  line-height: 1.3rem;
+  line-height: 1.2rem;
   margin-top: -1px;
 }/*# sourceMappingURL=main.css.map */
