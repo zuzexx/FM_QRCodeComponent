@@ -36,7 +36,7 @@ img {
   position: relative;
   border-radius: 15px;
   width: 288px;
-  margin-bottom: 15px;
+  /*margin-bottom: 13px;*/
 }
 img:hover {
   transform: scale(1.1);
@@ -47,7 +47,7 @@ img:hover {
   text-align: center;
   font-size: 15px;
   width: 285px;
-  margin-bottom: 10px;
+  margin-bottom: 18px;
 }
 #text h1 {
   font-weight: 700;
