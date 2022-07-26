@@ -36,7 +36,7 @@ img {
   position: relative;
   border-radius: 15px;
   width: 288px;
-  /*margin-bottom: 13px;*/
+  margin-top: -11px;
 }
 img:hover {
   transform: scale(1.1);
@@ -61,4 +61,5 @@ img:hover {
   width: 275px;
   line-height: 1.2rem;
   margin-top: -1px;
+  margin-bottom: 11px;
 }/*# sourceMappingURL=main.css.map */
