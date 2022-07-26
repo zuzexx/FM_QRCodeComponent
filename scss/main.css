@@ -36,6 +36,7 @@ img {
   position: relative;
   border-radius: 15px;
   width: 288px;
+  margin-bottom: 12px;
 }
 img:hover {
   transform: scale(1.1);
