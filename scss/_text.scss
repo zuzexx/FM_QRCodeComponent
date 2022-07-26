@@ -1,0 +1,17 @@
+#text{
+    text-align: center;
+    font-size: $font-size;
+    width: 285px;
+    h1{
+        font-weight: $bold;
+        font-size: 1.5rem;
+        margin-top: 20px; 
+    }
+    p{
+        font-weight: $regular;
+        color: $grayish;
+        font-size: 1rem;
+        width:275px;
+        line-height: 1.3rem;
+    }
+}
