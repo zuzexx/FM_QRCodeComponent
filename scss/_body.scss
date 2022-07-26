@@ -11,3 +11,9 @@ body{
     align-items: center; 
     height: 100%;
 }
+
+main{
+    position: absolute;
+top: 50%;
+transform: translate(0, -50%);
+}
